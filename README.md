@@ -12,6 +12,8 @@ controller with `toast()->success('Saved')`, put `<x-sonner />` in your layout, 
 own stacking, animations, swipe-to-dismiss and themes. Toasts from Livewire actions appear without a reload.
 No npm install, no build step.
 
+Docs and demo: [amjad.com.pk/laravel/packages/laravel-sonner](https://amjad.com.pk/laravel/packages/laravel-sonner)
+
 [![Latest Version](https://img.shields.io/packagist/v/amjadiqbal/laravel-sonner.svg?style=flat-square)](https://packagist.org/packages/amjadiqbal/laravel-sonner)
 [![PHP Version](https://img.shields.io/packagist/php-v/amjadiqbal/laravel-sonner?style=flat-square)](https://packagist.org/packages/amjadiqbal/laravel-sonner)
 [![License](https://img.shields.io/packagist/l/amjadiqbal/laravel-sonner.svg?style=flat-square)](LICENSE.md)

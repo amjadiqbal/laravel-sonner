@@ -18,7 +18,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/amjadiqbal/laravel-sonner",
+    "homepage": "https://amjad.com.pk/laravel/packages/laravel-sonner",
     "authors": [
         {
             "name": "Amjad Iqbal",
@@ -29,7 +29,7 @@
     "support": {
         "issues": "https://github.com/amjadiqbal/laravel-sonner/issues",
         "source": "https://github.com/amjadiqbal/laravel-sonner",
-        "docs": "https://github.com/amjadiqbal/laravel-sonner#readme"
+        "docs": "https://amjad.com.pk/laravel/packages/laravel-sonner"
     },
     "require": {
         "php": "^8.3",
