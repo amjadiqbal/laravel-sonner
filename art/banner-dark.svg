@@ -1,0 +1,19 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0B1220"/><stop offset="100%" stop-color="#111C33"/></linearGradient><linearGradient id="iconbg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0F172A"/><stop offset="100%" stop-color="#132844"/></linearGradient></defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g transform="translate(60,75) scale(0.29297)"><rect width="512" height="512" rx="112" fill="url(#iconbg)"/>
+    <rect x="124" y="148" width="264" height="150" rx="24" fill="#334155"/>
+    <rect x="98" y="182" width="316" height="150" rx="26" fill="#475569"/>
+    <rect x="72" y="218" width="368" height="152" rx="28" fill="#FFFFFF"/>
+    <circle cx="140" cy="294" r="32" fill="#7C3AED"/>
+    <path d="M125 295 L136 306 L156 284" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="194" y="266" width="168" height="20" rx="10" fill="#0F172A"/>
+    <rect x="194" y="302" width="212" height="14" rx="7" fill="#94A3B8"/>
+    <rect x="356" y="96" width="76" height="12" rx="6" fill="#A78BFA"/>
+    <rect x="390" y="120" width="42" height="12" rx="6" fill="#7C3AED"/></g>
+  <text x="235" y="150" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#F8FAFC">Laravel Sonner</text>
+  <text x="238" y="192" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="500" fill="#A78BFA" letter-spacing="0.3">Sonner toast notifications for Laravel</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#CBD5E1" text-anchor="middle"><g transform="translate(238,220)"><rect width="157" height="32" rx="16.0" fill="#16213A" stroke="#24324F"/><text x="78.5" y="21.40">toast() from PHP</text></g><g transform="translate(405,220)"><rect width="228" height="32" rx="16.0" fill="#16213A" stroke="#24324F"/><text x="114.0" y="21.40">Blade · Livewire · Alpine</text></g><g transform="translate(643,220)"><rect width="93" height="32" rx="16.0" fill="#16213A" stroke="#24324F"/><text x="46.5" y="21.40">no React</text></g></g>
+  <rect x="925" y="62.0" width="250.0" height="54.0" rx="9.0" fill="#16213A" stroke="#24324F"/><text x="941.0" y="85.0" font-family="Helvetica, Arial, sans-serif" font-size="14.0" font-weight="600" fill="#F8FAFC">Event created</text><text x="941.0" y="102.0" font-family="Helvetica, Arial, sans-serif" font-size="12.0" fill="#94A3B8">Friday, 6:00 PM</text><rect x="925" y="126.0" width="250.0" height="54.0" rx="9.0" fill="#16213A" stroke="#24324F"/><circle cx="949.0" cy="153.0" r="10.0" fill="#3B82F6"/><text x="949.0" y="157.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">i</text><text x="969.0" y="149.0" font-family="Helvetica, Arial, sans-serif" font-size="14.0" font-weight="600" fill="#F8FAFC">New comment</text><text x="969.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="12.0" fill="#94A3B8">on Invoice #1042</text><rect x="925" y="190.0" width="250.0" height="54.0" rx="9.0" fill="#16213A" stroke="#24324F"/><circle cx="949.0" cy="217.0" r="10.0" fill="#7C3AED"/><path d="M944.5 217.0 L947.8 220.4 L954.0 213.4" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="969.0" y="213.0" font-family="Helvetica, Arial, sans-serif" font-size="14.0" font-weight="600" fill="#F8FAFC">Profile saved</text><text x="969.0" y="230.0" font-family="Helvetica, Arial, sans-serif" font-size="12.0" fill="#94A3B8">Your changes are live</text>
+  <text x="1170" y="275" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#64748B">amjadiqbal/laravel-sonner</text>
+</svg>
