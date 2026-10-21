@@ -192,7 +192,7 @@
       if (typeof action.onClick === 'function') action.onClick(event);
       if (kind === 'action' && event.defaultPrevented) return;
       deleteToast(r);
-      if (action.url) window.location.href = action.url;
+      if (action.url && !/^\s*(javascript|data|vbscript):/i.test(action.url)) window.location.href = action.url;
     });
     return button;
   }
