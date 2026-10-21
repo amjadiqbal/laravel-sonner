@@ -1,0 +1,9 @@
+/* laravel-sonner: the only change to Sonner's look. In the dark theme with rich colors, Sonner fills error
+ * toasts with a very dark red and warning toasts with a very dark olive, which read as maroon and brown. Here
+ * those two get a neutral near-black fill; the red and yellow stay as the border and text colours. */
+[data-sonner-toaster][data-sonner-theme='dark'] {
+  --error-bg: hsl(0, 0%, 7%);
+  --error-border: hsl(358, 80%, 45%);
+  --warning-bg: hsl(0, 0%, 7%);
+  --warning-border: hsl(46, 87%, 45%);
+}

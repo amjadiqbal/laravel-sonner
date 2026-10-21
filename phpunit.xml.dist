@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit xmlns:xsi="http:///www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd"
-         bootstrap="vendor/autoload.php"
-         colors="true"
-         beStrictAboutOutputDuringTests="true"
-         beStrictAboutChangesToGlobalState="true">
+<phpunit colors="true" bootstrap="vendor/autoload.php">
     <testsuites>
         <testsuite name="Unit">
-            <directory>tests/Unit</directory>
+            <directory suffix="Test.php">tests/Unit</directory>
         </testsuite>
         <testsuite name="Feature">
-            <directory>tests/Feature</directory>
+            <directory suffix="Test.php">tests/Feature</directory>
         </testsuite>
     </testsuites>
-    <php>
-        <env name="APP_KEY" value="base64:1o2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k=" />
-    </php>
 </phpunit>

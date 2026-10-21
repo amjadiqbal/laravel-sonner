@@ -1,11 +1,14 @@
 <?php
 
-use AmjadIqbal\Sonner\Support\ToastManager;
+use AmjadIqbal\Sonner\SonnerManager;
+use AmjadIqbal\Sonner\Toast;
 
-if (!function_exists('toast')) {
-    function toast(?string $message = null): \AmjadIqbal\Sonner\Support\ToastBuilder
+if (! function_exists('toast')) {
+    /**
+     * toast('Saved') flashes a toast; toast() alone returns a builder: toast()->success('Saved')->description('...').
+     */
+    function toast(?string $message = null): Toast
     {
-        $manager = app(ToastManager::class);
-        return $manager->builder($message);
+        return app(SonnerManager::class)->toast($message);
     }
 }

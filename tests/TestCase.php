@@ -3,35 +3,29 @@
 namespace AmjadIqbal\Sonner\Tests;
 
 use AmjadIqbal\Sonner\SonnerServiceProvider;
-use Illuminate\Session\SessionServiceProvider;
-use Illuminate\View\ViewServiceProvider;
-use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\View;
-use Orchestra\Testbench\TestCase as BaseTestCase;
+use Livewire\LivewireServiceProvider;
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
-class TestCase extends BaseTestCase
+class TestCase extends OrchestraTestCase
 {
     protected function getPackageProviders($app)
     {
         return [
+            LivewireServiceProvider::class,
             SonnerServiceProvider::class,
-            SessionServiceProvider::class,
-            ViewServiceProvider::class,
         ];
     }
 
-    protected function getPackageAliases($app)
+    protected function defineEnvironment($app)
     {
-        return [
-            'Session' => Session::class,
-            'View' => View::class,
-        ];
+        $app['config']->set('app.key', 'base64:'.base64_encode(str_repeat('a', 32)));
+        $app['config']->set('session.driver', 'array');
     }
 
     protected function setUp(): void
     {
         parent::setUp();
-        config()->set('session.driver', 'array');
+
         $this->app['session']->start();
     }
 }
