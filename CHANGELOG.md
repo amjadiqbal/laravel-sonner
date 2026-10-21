@@ -4,7 +4,7 @@ All notable changes to `amjadiqbal/laravel-sonner` are documented here. The form
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+## [1.0.0] - 2026-10-21
 
 First release. The code on `dev-main` before it drew its own toasts and only borrowed Sonner's name: no
 stacking, no animations, no Sonner styles. It could not be installed on Laravel 12 or 13, and a toast
@@ -42,3 +42,5 @@ message containing `</script>` could inject HTML into the page.
 - The toast queue is printed as JSON with `<`, `>`, `&` and quotes escaped, and toast text is set with
   `textContent`, so toast messages can no longer inject HTML.
 - Flashed toasts show once, then leave the session (they could stay forever if a page never rendered them).
+
+[1.0.0]: https://github.com/amjadiqbal/laravel-sonner/releases/tag/v1.0.0
